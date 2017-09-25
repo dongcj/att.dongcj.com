@@ -82,6 +82,8 @@ span.MathJax_SVG { zoom : 1.6; }
     }
     hr  { margin: 0 31px 0 31px; }
     p  { padding-left: 38px;}
+    q::before { font-size: 24px; }
+    q::after { font-size: 24px; }
     ol p, ul p  { text-indent : 1px; }
     ol, ul {
         padding-left: 64px;
