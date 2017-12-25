@@ -28,8 +28,8 @@
         text-align     : left;
         font-weight    : bold;
         font-size      : 32px;
-        text-transform : Capitalize;
-        /* counter-reset  : h2; */
+        /* text-transform : Capitalize;
+        counter-reset  : h2; */
     }
     /* h1:before {counter-increment: h1; content: counter(h1) "."} */
     /* h1.nocount:before { content: ""; counter-increment: none } */
