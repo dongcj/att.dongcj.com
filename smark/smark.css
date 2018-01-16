@@ -94,6 +94,7 @@
     ol, ul {
         padding-left : 64px;
         padding-right: 48px;
+        margin-bottom: 0px;
     }
     ol li ul {
         padding-left: 32px;
@@ -127,11 +128,12 @@
         margin-right     : 30px;
         padding          : 10px;
         background-color : #FAFAFA;
-        box-shadow       : 0px 0px 4px #D0D0D0 inset;
+        box-shadow       : 0px 0px 3px #c0c0c0;
         overflow         : auto;
         border-radius    : 4px;
         line-height      : 130%;
     }
+    
     blockquote {
         padding           : 1px;
         overflow          : auto;
@@ -139,12 +141,19 @@
         margin-right      : 32px;
         background-color  : #EDF2F7;
         color             : #6a737d;
-        border-left: 0.25em solid #2A4E68;
-        border-radius    : 4px;
+        /*
+        border-left       : 0.5em solid #2A4E68;
+        */
+        border-radius     : 8px;
+        box-shadow        : 0px 0px 6px #c0c0c0;
+        background-image: url(https://lug.ustc.edu.cn/wiki/lib/plugins/note/images/tip.png);
+        background-position: 10px 50%;
+        background-repeat: no-repeat;
+
     }
 
     blockquote p {
-        padding-left      : 12px;
+        padding-left      : 60px;
         padding-right     : 8px;
 
     }
